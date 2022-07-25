@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav {
+      height: 15vh;
+      background: #444;
+      color: #DDD;
+  }
+
+  main {
+      background: #EEE;
+      height: 85vh;
+  }
+
+  table,
+  section,
+  nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  table {
+      padding-top: 5vh;
+  }
+
+.row td {
+    height: 120px;
+    width: 120px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 2em;
+}
